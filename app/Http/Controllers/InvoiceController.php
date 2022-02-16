@@ -18,9 +18,9 @@ class InvoiceController extends Controller
 
         if (!($invoiceId == "9f587e13-682e-4d91-867f-fd3aec3b70b8" || $invoiceId == 1)) {
             return Response::json(array(
-                'code'      =>  401,
+                'code'      =>  418,
                 'message'   =>  "I am a teapot"
-            ), 401);
+            ), 418);
         }
 
 
